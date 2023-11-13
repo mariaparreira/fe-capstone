@@ -1,23 +1,33 @@
 /* ##################################   STYLING THE SIGN UP FORM  ################################## */
 
 .form {
-    background-color: rgba(53,138,216, 0.3);
+    background-color: rgba(53, 138, 216, 0.3);
     border-radius: 40px;
     width: 500px;
     padding: 100px;
-    margin: 5px auto;
-    text-align: center;
+    margin: 100px auto;
     color: #003C74;
 }
 
 .signup-title {
     color: #003C74;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .login-text {
     margin-bottom: 40px;
     color: #003C74;
+    text-align: center;
+}
+
+.login-nav {
+    color: #358AD8;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
 }
 
 .btnSubmit {
@@ -30,6 +40,11 @@
     border: #ffffff;
 }
 
+.btnSubmit:hover {
+    background-color: #005db3;
+    transition: 0.3s;
+}
+
 .btnReset {
     width: 248px;
     height: 50px;
@@ -38,4 +53,12 @@
     margin-top: 10px;
     border-radius: 30px;
     border: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnReset:hover {
+    background-color: #ff0000;
+    transition: 0.3s;
 }
